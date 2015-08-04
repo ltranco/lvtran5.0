@@ -1,0 +1,1 @@
+Spirito={initPortfolio:function(o){return o=void 0!==o?o:"#portfolio",$(o).mixitup({targetSelector:".portfolio-item",effects:["fade","rotateX"],onMixStart:function(){$(".portfolio-item").css("height",""),$(".portfolio-item").removeClass("og-expanded"),$(".portfolio-item .og-expander").fadeOut("fast").remove()}}),this}};
